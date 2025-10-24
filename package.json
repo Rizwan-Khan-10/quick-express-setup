@@ -1,0 +1,25 @@
+{
+  "name": "quick-express-setup",
+  "version": "1.0.0",
+  "description": "Quick Express Setup CLI to install common packages for Express projects",
+  "bin": {
+    "quick-express-setup": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "execa": "^7.1.1"
+  },
+  "keywords": [
+    "express",
+    "cli",
+    "setup",
+    "quick"
+  ],
+  "author": "Rizwan Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rizwan-Khan-10/quick-express-setup.git"
+  }
+}
